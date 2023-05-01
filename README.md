@@ -19,8 +19,10 @@ curl -i -X POST \
  http://localhost:9090/upload
 ```
 
+簡単なHTMLは[こちら](public/index.html)
+
 ## 備考
 
 BEへのクライアント部の実装を行っています。
-[BEへのクライアント](src/main/java/com/example/demo/bff/infrastructure/FileApi.java)
+[BEへのクライアント](src/main/java/com/example/demo/bff/infrastructure/FileApi.java)  
 [BEへのクライアントのテスト](src/test/java/com/example/demo/bff/infrastructure/FileApiTest.java)
